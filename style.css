@@ -1,0 +1,138 @@
+html {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Arial, sans-serif;;
+}
+
+main {
+  display: flex;
+  padding: 2rem 3rem;
+  margin: 0;
+  gap: 2rem 1rem;
+}
+
+aside{
+  flex: 2;
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 1rem 2rem;
+  color: black;
+  font-size: 10px;
+}
+
+nav{
+    background-color: #000000;
+    padding: 30px;
+}
+
+.aww{
+  width: 50px;
+  height: 50px;
+  border-radius: 30px;
+  object-position:left ;
+}
+
+nav a:hover{
+  padding: 30px;
+  border-radius: 20px;
+  background-color: #4CAF50
+}
+
+.kaciw{
+  flex: 2;
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 1rem 2rem;
+  color: black;
+  font-size: 18px;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+  list-style-type: none;
+  font-size: 18px;
+}
+
+nav ul a {
+  text-decoration: none;
+  color: white;
+}
+
+.card {
+  box-shadow: 0px 0px 5px;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+aside {
+  flex: 1;
+}
+
+.card2 {
+  box-shadow: 0px 0px 5px;
+  border-radius: 20px;
+  padding: 20px;
+  flex: 1 1 1;
+}
+
+#map {
+  height: 500px; 
+  width: 80%; 
+  border: 2px solid #4CAF50; 
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+  margin-top: 20px; 
+}
+
+
+@media (max-width: 768px) {
+  #map {
+      height: 300px; 
+  }
+}
+
+#peta h1 {
+  text-align: center; 
+  color: #333; 
+  margin-bottom: 10px;
+}
+
+main {
+  padding: 2em;
+  background-color: #f3f4f6; 
+}
+.footer{
+  background-color: black;
+  color: #f3f4f6;
+  text-align: center;
+  padding: 20px;
+}
+
+.img {
+  width: 300px;
+  height: 200px;
+}
+.makanan{
+  width:300px;
+  height: 150px;
+}
+.uhuy{
+  display: flex;
+  flex-wrap: wrap;
+  width: 300px;
+  height: 150px;
+}
+.au{
+  width: 300px;
+  height: 150px;
+}
+
+  
+
+  
